@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forumlario</title>
+    <link type = "stylesheet/css" rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <div id = "wrap">
+        <h1>Formulario Exercício</h1>
+        <div id = "formStyle">
+            <form>
+
+                <label for="title">Title</label><!--Espaço aqui-->
+
+                <label>
+
+                    <input type="radio" name = "title" value = "mr">Mr
+
+                </label>
+
+                <label for="title">
+
+                    <input type="radio" name = "title" value = "mrs">Mrs
+
+                </label>
+
+                <label for="title">
+
+                    <input type="radio" name = "title" value = "miss">Miss
+                        
+                    </label>
+                <!--alguma coisa aqui-->
+                <label for="FirstName">FirstName</label>
+                    <!--Espaço-->
+                <input type="text" value="" name="FirstName">
+
+                <label for="LastName">LastName</label>
+
+                <input type="text" value=""   name="LastName">
+
+                <label for="PhoneNumber">Phone Number</label>
+
+                <input type="tel" value="" name="PhoneNumber">
+
+                <label for="EMail">Email</label>
+
+                <input type="email" value="" name="EMail">
+
+                <label for="Password">Password</label>
+
+                <input type="password" value="" name="Password">
+
+                    <label for="country">Countrys</label>
+                    <select name="Country" id="country">
+                        <option value="country">China</option>
+                        <option value="country">Japan</option>
+                        <option value="country">Brazil</option>
+                        <option value="country">United States</option>
+                        <option value="country">Indonesia</option>
+                    </select>
+                    <label for="terms">
+                        <input type="checkbox">
+                        <p>I agree with the <a href="#">terms of the contract</a></p>
+                    </label>
+                    <button>Sign up</button>
+                    <button type="reset">Reset form</button>
+
+            </form>
+        </div>
+     </div>
+
+</body>
+</html>
